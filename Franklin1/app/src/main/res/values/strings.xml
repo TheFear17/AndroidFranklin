@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Franklin1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+<string-array name="Clasificacion">
+    <item>Salon</item>
+    <item>Proyectore(s)</item>
+    <item>Sillas</item>
+    <item>Tapetes</item>
+</string-array>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="youtube">Youtube</string>
+    <string name="selecciona_una_clasificacion">Selecciona una clasificacion</string>
+</resources>

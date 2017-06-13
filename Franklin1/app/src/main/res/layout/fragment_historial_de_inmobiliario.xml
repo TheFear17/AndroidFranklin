@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.aplicaciones.braya.franklin1.HistorialDeInmobiliario">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:id="@+id/expandableListView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.97"></TableLayout>
+    </LinearLayout>
+</FrameLayout>

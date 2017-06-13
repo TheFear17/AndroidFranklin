@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/inmb"
+            android:title="Lista de Inmobiliario" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/q"
+            android:title="QR" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/historial"
+            android:title="Historial de Inmobiliario" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/redes"
+            android:title="Ir a Redes Sociales" />
+    </group>
+
+    <item android:title="Informacion">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/empresa"
+                android:title="Acerca de la empresa" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/programa"
+                android:title="Acerca del programa" />
+        </menu>
+    </item>
+
+</menu>

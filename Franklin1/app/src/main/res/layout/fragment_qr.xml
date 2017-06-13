@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.aplicaciones.braya.franklin1.QR"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="295dp"
+            android:layout_height="270dp"
+            android:text="Escanner QR"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="EscannerQR"
+            android:background="@drawable/notification_icon_background"
+            android:textColor="@color/abc_btn_colored_text_material"
+            android:textSize="40dp"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="307dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/escanear" />
+    </LinearLayout>
+
+</FrameLayout>

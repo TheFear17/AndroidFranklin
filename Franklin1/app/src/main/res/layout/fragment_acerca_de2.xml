@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aplicaciones.braya.franklin1.AcercaDe2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="258dp"
+            android:layout_height="242dp"
+            android:id="@+id/imageView4"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/icon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:text="Blas-Finder Fue creado para la solucion de una empresa, para facilitar su inmobiliario de una manera mas rapida y senilla sin tantas complicaciones."
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textSize="23dp" />
+
+        <ImageView
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/like" />
+    </LinearLayout>
+</FrameLayout>
